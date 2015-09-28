@@ -1,0 +1,1055 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		73C266221BB9EF4E007119BC /* libtiff.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C265531BB9EF4D007119BC /* libtiff.5.dylib */; settings = {ASSET_TAGS = (); }; };
+		73C266231BB9EF4E007119BC /* libtiff.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C265541BB9EF4D007119BC /* libtiff.a */; settings = {ASSET_TAGS = (); }; };
+		73C266241BB9EF4E007119BC /* libtiff.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C265551BB9EF4D007119BC /* libtiff.dylib */; settings = {ASSET_TAGS = (); }; };
+		73C266251BB9EF4E007119BC /* libtiffxx.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C265581BB9EF4D007119BC /* libtiffxx.5.dylib */; settings = {ASSET_TAGS = (); }; };
+		73C266261BB9EF4E007119BC /* libtiffxx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C265591BB9EF4D007119BC /* libtiffxx.a */; settings = {ASSET_TAGS = (); }; };
+		73C266271BB9EF4E007119BC /* libtiffxx.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C2655A1BB9EF4D007119BC /* libtiffxx.dylib */; settings = {ASSET_TAGS = (); }; };
+		73C266281BB9EF4E007119BC /* tif_aux.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C2655D1BB9EF4D007119BC /* tif_aux.o */; settings = {ASSET_TAGS = (); }; };
+		73C266291BB9EF4E007119BC /* tif_close.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C2655E1BB9EF4D007119BC /* tif_close.o */; settings = {ASSET_TAGS = (); }; };
+		73C2662A1BB9EF4E007119BC /* tif_codec.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C2655F1BB9EF4D007119BC /* tif_codec.o */; settings = {ASSET_TAGS = (); }; };
+		73C2662B1BB9EF4E007119BC /* tif_color.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C265601BB9EF4D007119BC /* tif_color.o */; settings = {ASSET_TAGS = (); }; };
+		73C2662C1BB9EF4E007119BC /* tif_compress.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C265611BB9EF4D007119BC /* tif_compress.o */; settings = {ASSET_TAGS = (); }; };
+		73C2662D1BB9EF4E007119BC /* tif_dir.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C265621BB9EF4D007119BC /* tif_dir.o */; settings = {ASSET_TAGS = (); }; };
+		73C2662E1BB9EF4E007119BC /* tif_dirinfo.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C265631BB9EF4D007119BC /* tif_dirinfo.o */; settings = {ASSET_TAGS = (); }; };
+		73C2662F1BB9EF4E007119BC /* tif_dirread.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C265641BB9EF4D007119BC /* tif_dirread.o */; settings = {ASSET_TAGS = (); }; };
+		73C266301BB9EF4E007119BC /* tif_dirwrite.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C265651BB9EF4D007119BC /* tif_dirwrite.o */; settings = {ASSET_TAGS = (); }; };
+		73C266311BB9EF4E007119BC /* tif_dumpmode.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C265661BB9EF4D007119BC /* tif_dumpmode.o */; settings = {ASSET_TAGS = (); }; };
+		73C266321BB9EF4E007119BC /* tif_error.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C265671BB9EF4D007119BC /* tif_error.o */; settings = {ASSET_TAGS = (); }; };
+		73C266331BB9EF4E007119BC /* tif_extension.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C265681BB9EF4D007119BC /* tif_extension.o */; settings = {ASSET_TAGS = (); }; };
+		73C266341BB9EF4E007119BC /* tif_fax3.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C265691BB9EF4D007119BC /* tif_fax3.o */; settings = {ASSET_TAGS = (); }; };
+		73C266351BB9EF4E007119BC /* tif_fax3sm.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C2656A1BB9EF4D007119BC /* tif_fax3sm.o */; settings = {ASSET_TAGS = (); }; };
+		73C266361BB9EF4E007119BC /* tif_flush.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C2656B1BB9EF4D007119BC /* tif_flush.o */; settings = {ASSET_TAGS = (); }; };
+		73C266371BB9EF4E007119BC /* tif_getimage.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C2656C1BB9EF4D007119BC /* tif_getimage.o */; settings = {ASSET_TAGS = (); }; };
+		73C266381BB9EF4E007119BC /* tif_jbig.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C2656D1BB9EF4D007119BC /* tif_jbig.o */; settings = {ASSET_TAGS = (); }; };
+		73C266391BB9EF4E007119BC /* tif_jpeg.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C2656E1BB9EF4D007119BC /* tif_jpeg.o */; settings = {ASSET_TAGS = (); }; };
+		73C2663A1BB9EF4E007119BC /* tif_jpeg_12.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C2656F1BB9EF4D007119BC /* tif_jpeg_12.o */; settings = {ASSET_TAGS = (); }; };
+		73C2663B1BB9EF4E007119BC /* tif_luv.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C265701BB9EF4D007119BC /* tif_luv.o */; settings = {ASSET_TAGS = (); }; };
+		73C2663C1BB9EF4E007119BC /* tif_lzma.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C265711BB9EF4D007119BC /* tif_lzma.o */; settings = {ASSET_TAGS = (); }; };
+		73C2663D1BB9EF4E007119BC /* tif_lzw.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C265721BB9EF4D007119BC /* tif_lzw.o */; settings = {ASSET_TAGS = (); }; };
+		73C2663E1BB9EF4E007119BC /* tif_next.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C265731BB9EF4D007119BC /* tif_next.o */; settings = {ASSET_TAGS = (); }; };
+		73C2663F1BB9EF4E007119BC /* tif_ojpeg.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C265741BB9EF4D007119BC /* tif_ojpeg.o */; settings = {ASSET_TAGS = (); }; };
+		73C266401BB9EF4E007119BC /* tif_open.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C265751BB9EF4D007119BC /* tif_open.o */; settings = {ASSET_TAGS = (); }; };
+		73C266411BB9EF4E007119BC /* tif_packbits.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C265761BB9EF4D007119BC /* tif_packbits.o */; settings = {ASSET_TAGS = (); }; };
+		73C266421BB9EF4E007119BC /* tif_pixarlog.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C265771BB9EF4D007119BC /* tif_pixarlog.o */; settings = {ASSET_TAGS = (); }; };
+		73C266431BB9EF4E007119BC /* tif_predict.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C265781BB9EF4D007119BC /* tif_predict.o */; settings = {ASSET_TAGS = (); }; };
+		73C266441BB9EF4E007119BC /* tif_print.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C265791BB9EF4D007119BC /* tif_print.o */; settings = {ASSET_TAGS = (); }; };
+		73C266451BB9EF4E007119BC /* tif_read.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C2657A1BB9EF4D007119BC /* tif_read.o */; settings = {ASSET_TAGS = (); }; };
+		73C266461BB9EF4E007119BC /* tif_stream.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C2657B1BB9EF4D007119BC /* tif_stream.o */; settings = {ASSET_TAGS = (); }; };
+		73C266471BB9EF4E007119BC /* tif_strip.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C2657C1BB9EF4D007119BC /* tif_strip.o */; settings = {ASSET_TAGS = (); }; };
+		73C266481BB9EF4E007119BC /* tif_swab.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C2657D1BB9EF4D007119BC /* tif_swab.o */; settings = {ASSET_TAGS = (); }; };
+		73C266491BB9EF4E007119BC /* tif_thunder.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C2657E1BB9EF4D007119BC /* tif_thunder.o */; settings = {ASSET_TAGS = (); }; };
+		73C2664A1BB9EF4E007119BC /* tif_tile.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C2657F1BB9EF4D007119BC /* tif_tile.o */; settings = {ASSET_TAGS = (); }; };
+		73C2664B1BB9EF4E007119BC /* tif_unix.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C265801BB9EF4D007119BC /* tif_unix.o */; settings = {ASSET_TAGS = (); }; };
+		73C2664C1BB9EF4E007119BC /* tif_version.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C265811BB9EF4D007119BC /* tif_version.o */; settings = {ASSET_TAGS = (); }; };
+		73C2664D1BB9EF4E007119BC /* tif_warning.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C265821BB9EF4D007119BC /* tif_warning.o */; settings = {ASSET_TAGS = (); }; };
+		73C2664E1BB9EF4E007119BC /* tif_write.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C265831BB9EF4D007119BC /* tif_write.o */; settings = {ASSET_TAGS = (); }; };
+		73C2664F1BB9EF4E007119BC /* tif_zip.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C265841BB9EF4D007119BC /* tif_zip.o */; settings = {ASSET_TAGS = (); }; };
+		73C266501BB9EF4E007119BC /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 73C2658A1BB9EF4D007119BC /* Makefile */; settings = {ASSET_TAGS = (); }; };
+		73C266511BB9EF4E007119BC /* mkg3states.c in Sources */ = {isa = PBXBuildFile; fileRef = 73C2658F1BB9EF4D007119BC /* mkg3states.c */; settings = {ASSET_TAGS = (); }; };
+		73C266521BB9EF4E007119BC /* mkg3states.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C265901BB9EF4D007119BC /* mkg3states.o */; settings = {ASSET_TAGS = (); }; };
+		73C266531BB9EF4E007119BC /* t4.h in Headers */ = {isa = PBXBuildFile; fileRef = 73C265941BB9EF4D007119BC /* t4.h */; settings = {ASSET_TAGS = (); }; };
+		73C266541BB9EF4E007119BC /* tif_aux.c in Sources */ = {isa = PBXBuildFile; fileRef = 73C265951BB9EF4D007119BC /* tif_aux.c */; settings = {ASSET_TAGS = (); }; };
+		73C266551BB9EF4E007119BC /* tif_aux.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C265971BB9EF4D007119BC /* tif_aux.o */; settings = {ASSET_TAGS = (); }; };
+		73C266561BB9EF4E007119BC /* tif_close.c in Sources */ = {isa = PBXBuildFile; fileRef = 73C265981BB9EF4D007119BC /* tif_close.c */; settings = {ASSET_TAGS = (); }; };
+		73C266571BB9EF4E007119BC /* tif_close.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C2659A1BB9EF4D007119BC /* tif_close.o */; settings = {ASSET_TAGS = (); }; };
+		73C266581BB9EF4E007119BC /* tif_codec.c in Sources */ = {isa = PBXBuildFile; fileRef = 73C2659B1BB9EF4D007119BC /* tif_codec.c */; settings = {ASSET_TAGS = (); }; };
+		73C266591BB9EF4E007119BC /* tif_codec.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C2659D1BB9EF4D007119BC /* tif_codec.o */; settings = {ASSET_TAGS = (); }; };
+		73C2665A1BB9EF4E007119BC /* tif_color.c in Sources */ = {isa = PBXBuildFile; fileRef = 73C2659E1BB9EF4D007119BC /* tif_color.c */; settings = {ASSET_TAGS = (); }; };
+		73C2665B1BB9EF4E007119BC /* tif_color.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C265A01BB9EF4E007119BC /* tif_color.o */; settings = {ASSET_TAGS = (); }; };
+		73C2665C1BB9EF4E007119BC /* tif_compress.c in Sources */ = {isa = PBXBuildFile; fileRef = 73C265A11BB9EF4E007119BC /* tif_compress.c */; settings = {ASSET_TAGS = (); }; };
+		73C2665D1BB9EF4E007119BC /* tif_compress.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C265A31BB9EF4E007119BC /* tif_compress.o */; settings = {ASSET_TAGS = (); }; };
+		73C2665E1BB9EF4E007119BC /* tif_config.h in Headers */ = {isa = PBXBuildFile; fileRef = 73C265A41BB9EF4E007119BC /* tif_config.h */; settings = {ASSET_TAGS = (); }; };
+		73C2665F1BB9EF4E007119BC /* tif_config.vc.h in Headers */ = {isa = PBXBuildFile; fileRef = 73C265A81BB9EF4E007119BC /* tif_config.vc.h */; settings = {ASSET_TAGS = (); }; };
+		73C266601BB9EF4E007119BC /* tif_config.wince.h in Headers */ = {isa = PBXBuildFile; fileRef = 73C265A91BB9EF4E007119BC /* tif_config.wince.h */; settings = {ASSET_TAGS = (); }; };
+		73C266611BB9EF4E007119BC /* tif_dir.c in Sources */ = {isa = PBXBuildFile; fileRef = 73C265AA1BB9EF4E007119BC /* tif_dir.c */; settings = {ASSET_TAGS = (); }; };
+		73C266621BB9EF4E007119BC /* tif_dir.h in Headers */ = {isa = PBXBuildFile; fileRef = 73C265AB1BB9EF4E007119BC /* tif_dir.h */; settings = {ASSET_TAGS = (); }; };
+		73C266631BB9EF4E007119BC /* tif_dir.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C265AD1BB9EF4E007119BC /* tif_dir.o */; settings = {ASSET_TAGS = (); }; };
+		73C266641BB9EF4E007119BC /* tif_dirinfo.c in Sources */ = {isa = PBXBuildFile; fileRef = 73C265AE1BB9EF4E007119BC /* tif_dirinfo.c */; settings = {ASSET_TAGS = (); }; };
+		73C266651BB9EF4E007119BC /* tif_dirinfo.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C265B01BB9EF4E007119BC /* tif_dirinfo.o */; settings = {ASSET_TAGS = (); }; };
+		73C266661BB9EF4E007119BC /* tif_dirread.c in Sources */ = {isa = PBXBuildFile; fileRef = 73C265B11BB9EF4E007119BC /* tif_dirread.c */; settings = {ASSET_TAGS = (); }; };
+		73C266671BB9EF4E007119BC /* tif_dirread.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C265B31BB9EF4E007119BC /* tif_dirread.o */; settings = {ASSET_TAGS = (); }; };
+		73C266681BB9EF4E007119BC /* tif_dirwrite.c in Sources */ = {isa = PBXBuildFile; fileRef = 73C265B41BB9EF4E007119BC /* tif_dirwrite.c */; settings = {ASSET_TAGS = (); }; };
+		73C266691BB9EF4E007119BC /* tif_dirwrite.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C265B61BB9EF4E007119BC /* tif_dirwrite.o */; settings = {ASSET_TAGS = (); }; };
+		73C2666A1BB9EF4E007119BC /* tif_dumpmode.c in Sources */ = {isa = PBXBuildFile; fileRef = 73C265B71BB9EF4E007119BC /* tif_dumpmode.c */; settings = {ASSET_TAGS = (); }; };
+		73C2666B1BB9EF4E007119BC /* tif_dumpmode.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C265B91BB9EF4E007119BC /* tif_dumpmode.o */; settings = {ASSET_TAGS = (); }; };
+		73C2666C1BB9EF4E007119BC /* tif_error.c in Sources */ = {isa = PBXBuildFile; fileRef = 73C265BA1BB9EF4E007119BC /* tif_error.c */; settings = {ASSET_TAGS = (); }; };
+		73C2666D1BB9EF4E007119BC /* tif_error.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C265BC1BB9EF4E007119BC /* tif_error.o */; settings = {ASSET_TAGS = (); }; };
+		73C2666E1BB9EF4E007119BC /* tif_extension.c in Sources */ = {isa = PBXBuildFile; fileRef = 73C265BD1BB9EF4E007119BC /* tif_extension.c */; settings = {ASSET_TAGS = (); }; };
+		73C2666F1BB9EF4E007119BC /* tif_extension.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C265BF1BB9EF4E007119BC /* tif_extension.o */; settings = {ASSET_TAGS = (); }; };
+		73C266701BB9EF4E007119BC /* tif_fax3.c in Sources */ = {isa = PBXBuildFile; fileRef = 73C265C01BB9EF4E007119BC /* tif_fax3.c */; settings = {ASSET_TAGS = (); }; };
+		73C266711BB9EF4E007119BC /* tif_fax3.h in Headers */ = {isa = PBXBuildFile; fileRef = 73C265C11BB9EF4E007119BC /* tif_fax3.h */; settings = {ASSET_TAGS = (); }; };
+		73C266721BB9EF4E007119BC /* tif_fax3.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C265C31BB9EF4E007119BC /* tif_fax3.o */; settings = {ASSET_TAGS = (); }; };
+		73C266731BB9EF4E007119BC /* tif_fax3sm.c in Sources */ = {isa = PBXBuildFile; fileRef = 73C265C41BB9EF4E007119BC /* tif_fax3sm.c */; settings = {ASSET_TAGS = (); }; };
+		73C266741BB9EF4E007119BC /* tif_fax3sm.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C265C61BB9EF4E007119BC /* tif_fax3sm.o */; settings = {ASSET_TAGS = (); }; };
+		73C266751BB9EF4E007119BC /* tif_flush.c in Sources */ = {isa = PBXBuildFile; fileRef = 73C265C71BB9EF4E007119BC /* tif_flush.c */; settings = {ASSET_TAGS = (); }; };
+		73C266761BB9EF4E007119BC /* tif_flush.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C265C91BB9EF4E007119BC /* tif_flush.o */; settings = {ASSET_TAGS = (); }; };
+		73C266771BB9EF4E007119BC /* tif_getimage.c in Sources */ = {isa = PBXBuildFile; fileRef = 73C265CA1BB9EF4E007119BC /* tif_getimage.c */; settings = {ASSET_TAGS = (); }; };
+		73C266781BB9EF4E007119BC /* tif_getimage.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C265CC1BB9EF4E007119BC /* tif_getimage.o */; settings = {ASSET_TAGS = (); }; };
+		73C266791BB9EF4E007119BC /* tif_jbig.c in Sources */ = {isa = PBXBuildFile; fileRef = 73C265CD1BB9EF4E007119BC /* tif_jbig.c */; settings = {ASSET_TAGS = (); }; };
+		73C2667A1BB9EF4E007119BC /* tif_jbig.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C265CF1BB9EF4E007119BC /* tif_jbig.o */; settings = {ASSET_TAGS = (); }; };
+		73C2667B1BB9EF4E007119BC /* tif_jpeg.c in Sources */ = {isa = PBXBuildFile; fileRef = 73C265D01BB9EF4E007119BC /* tif_jpeg.c */; settings = {ASSET_TAGS = (); }; };
+		73C2667C1BB9EF4E007119BC /* tif_jpeg.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C265D21BB9EF4E007119BC /* tif_jpeg.o */; settings = {ASSET_TAGS = (); }; };
+		73C2667D1BB9EF4E007119BC /* tif_jpeg_12.c in Sources */ = {isa = PBXBuildFile; fileRef = 73C265D31BB9EF4E007119BC /* tif_jpeg_12.c */; settings = {ASSET_TAGS = (); }; };
+		73C2667E1BB9EF4E007119BC /* tif_jpeg_12.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C265D51BB9EF4E007119BC /* tif_jpeg_12.o */; settings = {ASSET_TAGS = (); }; };
+		73C2667F1BB9EF4E007119BC /* tif_luv.c in Sources */ = {isa = PBXBuildFile; fileRef = 73C265D61BB9EF4E007119BC /* tif_luv.c */; settings = {ASSET_TAGS = (); }; };
+		73C266801BB9EF4E007119BC /* tif_luv.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C265D81BB9EF4E007119BC /* tif_luv.o */; settings = {ASSET_TAGS = (); }; };
+		73C266811BB9EF4E007119BC /* tif_lzma.c in Sources */ = {isa = PBXBuildFile; fileRef = 73C265D91BB9EF4E007119BC /* tif_lzma.c */; settings = {ASSET_TAGS = (); }; };
+		73C266821BB9EF4E007119BC /* tif_lzma.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C265DB1BB9EF4E007119BC /* tif_lzma.o */; settings = {ASSET_TAGS = (); }; };
+		73C266831BB9EF4E007119BC /* tif_lzw.c in Sources */ = {isa = PBXBuildFile; fileRef = 73C265DC1BB9EF4E007119BC /* tif_lzw.c */; settings = {ASSET_TAGS = (); }; };
+		73C266841BB9EF4E007119BC /* tif_lzw.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C265DE1BB9EF4E007119BC /* tif_lzw.o */; settings = {ASSET_TAGS = (); }; };
+		73C266851BB9EF4E007119BC /* tif_next.c in Sources */ = {isa = PBXBuildFile; fileRef = 73C265DF1BB9EF4E007119BC /* tif_next.c */; settings = {ASSET_TAGS = (); }; };
+		73C266861BB9EF4E007119BC /* tif_next.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C265E11BB9EF4E007119BC /* tif_next.o */; settings = {ASSET_TAGS = (); }; };
+		73C266871BB9EF4E007119BC /* tif_ojpeg.c in Sources */ = {isa = PBXBuildFile; fileRef = 73C265E21BB9EF4E007119BC /* tif_ojpeg.c */; settings = {ASSET_TAGS = (); }; };
+		73C266881BB9EF4E007119BC /* tif_ojpeg.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C265E41BB9EF4E007119BC /* tif_ojpeg.o */; settings = {ASSET_TAGS = (); }; };
+		73C266891BB9EF4E007119BC /* tif_open.c in Sources */ = {isa = PBXBuildFile; fileRef = 73C265E51BB9EF4E007119BC /* tif_open.c */; settings = {ASSET_TAGS = (); }; };
+		73C2668A1BB9EF4E007119BC /* tif_open.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C265E71BB9EF4E007119BC /* tif_open.o */; settings = {ASSET_TAGS = (); }; };
+		73C2668B1BB9EF4E007119BC /* tif_packbits.c in Sources */ = {isa = PBXBuildFile; fileRef = 73C265E81BB9EF4E007119BC /* tif_packbits.c */; settings = {ASSET_TAGS = (); }; };
+		73C2668C1BB9EF4E007119BC /* tif_packbits.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C265EA1BB9EF4E007119BC /* tif_packbits.o */; settings = {ASSET_TAGS = (); }; };
+		73C2668D1BB9EF4E007119BC /* tif_pixarlog.c in Sources */ = {isa = PBXBuildFile; fileRef = 73C265EB1BB9EF4E007119BC /* tif_pixarlog.c */; settings = {ASSET_TAGS = (); }; };
+		73C2668E1BB9EF4E007119BC /* tif_pixarlog.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C265ED1BB9EF4E007119BC /* tif_pixarlog.o */; settings = {ASSET_TAGS = (); }; };
+		73C2668F1BB9EF4E007119BC /* tif_predict.c in Sources */ = {isa = PBXBuildFile; fileRef = 73C265EE1BB9EF4E007119BC /* tif_predict.c */; settings = {ASSET_TAGS = (); }; };
+		73C266901BB9EF4E007119BC /* tif_predict.h in Headers */ = {isa = PBXBuildFile; fileRef = 73C265EF1BB9EF4E007119BC /* tif_predict.h */; settings = {ASSET_TAGS = (); }; };
+		73C266911BB9EF4E007119BC /* tif_predict.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C265F11BB9EF4E007119BC /* tif_predict.o */; settings = {ASSET_TAGS = (); }; };
+		73C266921BB9EF4E007119BC /* tif_print.c in Sources */ = {isa = PBXBuildFile; fileRef = 73C265F21BB9EF4E007119BC /* tif_print.c */; settings = {ASSET_TAGS = (); }; };
+		73C266931BB9EF4E007119BC /* tif_print.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C265F41BB9EF4E007119BC /* tif_print.o */; settings = {ASSET_TAGS = (); }; };
+		73C266941BB9EF4E007119BC /* tif_read.c in Sources */ = {isa = PBXBuildFile; fileRef = 73C265F51BB9EF4E007119BC /* tif_read.c */; settings = {ASSET_TAGS = (); }; };
+		73C266951BB9EF4E007119BC /* tif_read.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C265F71BB9EF4E007119BC /* tif_read.o */; settings = {ASSET_TAGS = (); }; };
+		73C266961BB9EF4E007119BC /* tif_stream.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 73C265F81BB9EF4E007119BC /* tif_stream.cxx */; settings = {ASSET_TAGS = (); }; };
+		73C266971BB9EF4E007119BC /* tif_stream.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C265FA1BB9EF4E007119BC /* tif_stream.o */; settings = {ASSET_TAGS = (); }; };
+		73C266981BB9EF4E007119BC /* tif_strip.c in Sources */ = {isa = PBXBuildFile; fileRef = 73C265FB1BB9EF4E007119BC /* tif_strip.c */; settings = {ASSET_TAGS = (); }; };
+		73C266991BB9EF4E007119BC /* tif_strip.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C265FD1BB9EF4E007119BC /* tif_strip.o */; settings = {ASSET_TAGS = (); }; };
+		73C2669A1BB9EF4E007119BC /* tif_swab.c in Sources */ = {isa = PBXBuildFile; fileRef = 73C265FE1BB9EF4E007119BC /* tif_swab.c */; settings = {ASSET_TAGS = (); }; };
+		73C2669B1BB9EF4E007119BC /* tif_swab.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C266001BB9EF4E007119BC /* tif_swab.o */; settings = {ASSET_TAGS = (); }; };
+		73C2669C1BB9EF4E007119BC /* tif_thunder.c in Sources */ = {isa = PBXBuildFile; fileRef = 73C266011BB9EF4E007119BC /* tif_thunder.c */; settings = {ASSET_TAGS = (); }; };
+		73C2669D1BB9EF4E007119BC /* tif_thunder.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C266031BB9EF4E007119BC /* tif_thunder.o */; settings = {ASSET_TAGS = (); }; };
+		73C2669E1BB9EF4E007119BC /* tif_tile.c in Sources */ = {isa = PBXBuildFile; fileRef = 73C266041BB9EF4E007119BC /* tif_tile.c */; settings = {ASSET_TAGS = (); }; };
+		73C2669F1BB9EF4E007119BC /* tif_tile.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C266061BB9EF4E007119BC /* tif_tile.o */; settings = {ASSET_TAGS = (); }; };
+		73C266A01BB9EF4E007119BC /* tif_unix.c in Sources */ = {isa = PBXBuildFile; fileRef = 73C266071BB9EF4E007119BC /* tif_unix.c */; settings = {ASSET_TAGS = (); }; };
+		73C266A11BB9EF4E007119BC /* tif_unix.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C266091BB9EF4E007119BC /* tif_unix.o */; settings = {ASSET_TAGS = (); }; };
+		73C266A21BB9EF4E007119BC /* tif_version.c in Sources */ = {isa = PBXBuildFile; fileRef = 73C2660A1BB9EF4E007119BC /* tif_version.c */; settings = {ASSET_TAGS = (); }; };
+		73C266A31BB9EF4E007119BC /* tif_version.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C2660C1BB9EF4E007119BC /* tif_version.o */; settings = {ASSET_TAGS = (); }; };
+		73C266A41BB9EF4E007119BC /* tif_warning.c in Sources */ = {isa = PBXBuildFile; fileRef = 73C2660D1BB9EF4E007119BC /* tif_warning.c */; settings = {ASSET_TAGS = (); }; };
+		73C266A51BB9EF4E007119BC /* tif_warning.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C2660F1BB9EF4E007119BC /* tif_warning.o */; settings = {ASSET_TAGS = (); }; };
+		73C266A61BB9EF4E007119BC /* tif_win32.c in Sources */ = {isa = PBXBuildFile; fileRef = 73C266101BB9EF4E007119BC /* tif_win32.c */; settings = {ASSET_TAGS = (); }; };
+		73C266A71BB9EF4E007119BC /* tif_write.c in Sources */ = {isa = PBXBuildFile; fileRef = 73C266111BB9EF4E007119BC /* tif_write.c */; settings = {ASSET_TAGS = (); }; };
+		73C266A81BB9EF4E007119BC /* tif_write.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C266131BB9EF4E007119BC /* tif_write.o */; settings = {ASSET_TAGS = (); }; };
+		73C266A91BB9EF4E007119BC /* tif_zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 73C266141BB9EF4E007119BC /* tif_zip.c */; settings = {ASSET_TAGS = (); }; };
+		73C266AA1BB9EF4E007119BC /* tif_zip.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C266161BB9EF4E007119BC /* tif_zip.o */; settings = {ASSET_TAGS = (); }; };
+		73C266AB1BB9EF4E007119BC /* tiff.h in Headers */ = {isa = PBXBuildFile; fileRef = 73C266171BB9EF4E007119BC /* tiff.h */; settings = {ASSET_TAGS = (); }; };
+		73C266AC1BB9EF4E007119BC /* tiffconf.h in Headers */ = {isa = PBXBuildFile; fileRef = 73C266181BB9EF4E007119BC /* tiffconf.h */; settings = {ASSET_TAGS = (); }; };
+		73C266AD1BB9EF4E007119BC /* tiffconf.vc.h in Headers */ = {isa = PBXBuildFile; fileRef = 73C2661B1BB9EF4E007119BC /* tiffconf.vc.h */; settings = {ASSET_TAGS = (); }; };
+		73C266AE1BB9EF4E007119BC /* tiffconf.wince.h in Headers */ = {isa = PBXBuildFile; fileRef = 73C2661C1BB9EF4E007119BC /* tiffconf.wince.h */; settings = {ASSET_TAGS = (); }; };
+		73C266AF1BB9EF4E007119BC /* tiffio.h in Headers */ = {isa = PBXBuildFile; fileRef = 73C2661D1BB9EF4E007119BC /* tiffio.h */; settings = {ASSET_TAGS = (); }; };
+		73C266B01BB9EF4E007119BC /* tiffio.hxx in Headers */ = {isa = PBXBuildFile; fileRef = 73C2661E1BB9EF4E007119BC /* tiffio.hxx */; settings = {ASSET_TAGS = (); }; };
+		73C266B11BB9EF4E007119BC /* tiffiop.h in Headers */ = {isa = PBXBuildFile; fileRef = 73C2661F1BB9EF4E007119BC /* tiffiop.h */; settings = {ASSET_TAGS = (); }; };
+		73C266B21BB9EF4E007119BC /* tiffvers.h in Headers */ = {isa = PBXBuildFile; fileRef = 73C266201BB9EF4E007119BC /* tiffvers.h */; settings = {ASSET_TAGS = (); }; };
+		73C266B31BB9EF4E007119BC /* uvcode.h in Headers */ = {isa = PBXBuildFile; fileRef = 73C266211BB9EF4E007119BC /* uvcode.h */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		73C2651E1BB9EECB007119BC /* liblibtiff.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = liblibtiff.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		73C265271BB9EF4D007119BC /* mkg3states.Po */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mkg3states.Po; sourceTree = "<group>"; };
+		73C265281BB9EF4D007119BC /* tif_aux.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tif_aux.Plo; sourceTree = "<group>"; };
+		73C265291BB9EF4D007119BC /* tif_close.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tif_close.Plo; sourceTree = "<group>"; };
+		73C2652A1BB9EF4D007119BC /* tif_codec.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tif_codec.Plo; sourceTree = "<group>"; };
+		73C2652B1BB9EF4D007119BC /* tif_color.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tif_color.Plo; sourceTree = "<group>"; };
+		73C2652C1BB9EF4D007119BC /* tif_compress.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tif_compress.Plo; sourceTree = "<group>"; };
+		73C2652D1BB9EF4D007119BC /* tif_dir.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tif_dir.Plo; sourceTree = "<group>"; };
+		73C2652E1BB9EF4D007119BC /* tif_dirinfo.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tif_dirinfo.Plo; sourceTree = "<group>"; };
+		73C2652F1BB9EF4D007119BC /* tif_dirread.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tif_dirread.Plo; sourceTree = "<group>"; };
+		73C265301BB9EF4D007119BC /* tif_dirwrite.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tif_dirwrite.Plo; sourceTree = "<group>"; };
+		73C265311BB9EF4D007119BC /* tif_dumpmode.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tif_dumpmode.Plo; sourceTree = "<group>"; };
+		73C265321BB9EF4D007119BC /* tif_error.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tif_error.Plo; sourceTree = "<group>"; };
+		73C265331BB9EF4D007119BC /* tif_extension.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tif_extension.Plo; sourceTree = "<group>"; };
+		73C265341BB9EF4D007119BC /* tif_fax3.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tif_fax3.Plo; sourceTree = "<group>"; };
+		73C265351BB9EF4D007119BC /* tif_fax3sm.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tif_fax3sm.Plo; sourceTree = "<group>"; };
+		73C265361BB9EF4D007119BC /* tif_flush.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tif_flush.Plo; sourceTree = "<group>"; };
+		73C265371BB9EF4D007119BC /* tif_getimage.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tif_getimage.Plo; sourceTree = "<group>"; };
+		73C265381BB9EF4D007119BC /* tif_jbig.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tif_jbig.Plo; sourceTree = "<group>"; };
+		73C265391BB9EF4D007119BC /* tif_jpeg.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tif_jpeg.Plo; sourceTree = "<group>"; };
+		73C2653A1BB9EF4D007119BC /* tif_jpeg_12.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tif_jpeg_12.Plo; sourceTree = "<group>"; };
+		73C2653B1BB9EF4D007119BC /* tif_luv.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tif_luv.Plo; sourceTree = "<group>"; };
+		73C2653C1BB9EF4D007119BC /* tif_lzma.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tif_lzma.Plo; sourceTree = "<group>"; };
+		73C2653D1BB9EF4D007119BC /* tif_lzw.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tif_lzw.Plo; sourceTree = "<group>"; };
+		73C2653E1BB9EF4D007119BC /* tif_next.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tif_next.Plo; sourceTree = "<group>"; };
+		73C2653F1BB9EF4D007119BC /* tif_ojpeg.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tif_ojpeg.Plo; sourceTree = "<group>"; };
+		73C265401BB9EF4D007119BC /* tif_open.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tif_open.Plo; sourceTree = "<group>"; };
+		73C265411BB9EF4D007119BC /* tif_packbits.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tif_packbits.Plo; sourceTree = "<group>"; };
+		73C265421BB9EF4D007119BC /* tif_pixarlog.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tif_pixarlog.Plo; sourceTree = "<group>"; };
+		73C265431BB9EF4D007119BC /* tif_predict.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tif_predict.Plo; sourceTree = "<group>"; };
+		73C265441BB9EF4D007119BC /* tif_print.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tif_print.Plo; sourceTree = "<group>"; };
+		73C265451BB9EF4D007119BC /* tif_read.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tif_read.Plo; sourceTree = "<group>"; };
+		73C265461BB9EF4D007119BC /* tif_stream.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tif_stream.Plo; sourceTree = "<group>"; };
+		73C265471BB9EF4D007119BC /* tif_strip.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tif_strip.Plo; sourceTree = "<group>"; };
+		73C265481BB9EF4D007119BC /* tif_swab.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tif_swab.Plo; sourceTree = "<group>"; };
+		73C265491BB9EF4D007119BC /* tif_thunder.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tif_thunder.Plo; sourceTree = "<group>"; };
+		73C2654A1BB9EF4D007119BC /* tif_tile.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tif_tile.Plo; sourceTree = "<group>"; };
+		73C2654B1BB9EF4D007119BC /* tif_unix.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tif_unix.Plo; sourceTree = "<group>"; };
+		73C2654C1BB9EF4D007119BC /* tif_version.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tif_version.Plo; sourceTree = "<group>"; };
+		73C2654D1BB9EF4D007119BC /* tif_warning.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tif_warning.Plo; sourceTree = "<group>"; };
+		73C2654E1BB9EF4D007119BC /* tif_win32.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tif_win32.Plo; sourceTree = "<group>"; };
+		73C2654F1BB9EF4D007119BC /* tif_write.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tif_write.Plo; sourceTree = "<group>"; };
+		73C265501BB9EF4D007119BC /* tif_zip.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tif_zip.Plo; sourceTree = "<group>"; };
+		73C265511BB9EF4D007119BC /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		73C265531BB9EF4D007119BC /* libtiff.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libtiff.5.dylib; sourceTree = "<group>"; };
+		73C265541BB9EF4D007119BC /* libtiff.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtiff.a; sourceTree = "<group>"; };
+		73C265551BB9EF4D007119BC /* libtiff.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libtiff.dylib; sourceTree = "<group>"; };
+		73C265561BB9EF4D007119BC /* libtiff.la */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = libtiff.la; sourceTree = "<group>"; };
+		73C265571BB9EF4D007119BC /* libtiff.lai */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = libtiff.lai; sourceTree = "<group>"; };
+		73C265581BB9EF4D007119BC /* libtiffxx.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libtiffxx.5.dylib; sourceTree = "<group>"; };
+		73C265591BB9EF4D007119BC /* libtiffxx.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtiffxx.a; sourceTree = "<group>"; };
+		73C2655A1BB9EF4D007119BC /* libtiffxx.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libtiffxx.dylib; sourceTree = "<group>"; };
+		73C2655B1BB9EF4D007119BC /* libtiffxx.la */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = libtiffxx.la; sourceTree = "<group>"; };
+		73C2655C1BB9EF4D007119BC /* libtiffxx.lai */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = libtiffxx.lai; sourceTree = "<group>"; };
+		73C2655D1BB9EF4D007119BC /* tif_aux.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = tif_aux.o; sourceTree = "<group>"; };
+		73C2655E1BB9EF4D007119BC /* tif_close.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = tif_close.o; sourceTree = "<group>"; };
+		73C2655F1BB9EF4D007119BC /* tif_codec.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = tif_codec.o; sourceTree = "<group>"; };
+		73C265601BB9EF4D007119BC /* tif_color.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = tif_color.o; sourceTree = "<group>"; };
+		73C265611BB9EF4D007119BC /* tif_compress.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = tif_compress.o; sourceTree = "<group>"; };
+		73C265621BB9EF4D007119BC /* tif_dir.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = tif_dir.o; sourceTree = "<group>"; };
+		73C265631BB9EF4D007119BC /* tif_dirinfo.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = tif_dirinfo.o; sourceTree = "<group>"; };
+		73C265641BB9EF4D007119BC /* tif_dirread.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = tif_dirread.o; sourceTree = "<group>"; };
+		73C265651BB9EF4D007119BC /* tif_dirwrite.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = tif_dirwrite.o; sourceTree = "<group>"; };
+		73C265661BB9EF4D007119BC /* tif_dumpmode.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = tif_dumpmode.o; sourceTree = "<group>"; };
+		73C265671BB9EF4D007119BC /* tif_error.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = tif_error.o; sourceTree = "<group>"; };
+		73C265681BB9EF4D007119BC /* tif_extension.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = tif_extension.o; sourceTree = "<group>"; };
+		73C265691BB9EF4D007119BC /* tif_fax3.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = tif_fax3.o; sourceTree = "<group>"; };
+		73C2656A1BB9EF4D007119BC /* tif_fax3sm.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = tif_fax3sm.o; sourceTree = "<group>"; };
+		73C2656B1BB9EF4D007119BC /* tif_flush.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = tif_flush.o; sourceTree = "<group>"; };
+		73C2656C1BB9EF4D007119BC /* tif_getimage.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = tif_getimage.o; sourceTree = "<group>"; };
+		73C2656D1BB9EF4D007119BC /* tif_jbig.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = tif_jbig.o; sourceTree = "<group>"; };
+		73C2656E1BB9EF4D007119BC /* tif_jpeg.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = tif_jpeg.o; sourceTree = "<group>"; };
+		73C2656F1BB9EF4D007119BC /* tif_jpeg_12.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = tif_jpeg_12.o; sourceTree = "<group>"; };
+		73C265701BB9EF4D007119BC /* tif_luv.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = tif_luv.o; sourceTree = "<group>"; };
+		73C265711BB9EF4D007119BC /* tif_lzma.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = tif_lzma.o; sourceTree = "<group>"; };
+		73C265721BB9EF4D007119BC /* tif_lzw.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = tif_lzw.o; sourceTree = "<group>"; };
+		73C265731BB9EF4D007119BC /* tif_next.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = tif_next.o; sourceTree = "<group>"; };
+		73C265741BB9EF4D007119BC /* tif_ojpeg.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = tif_ojpeg.o; sourceTree = "<group>"; };
+		73C265751BB9EF4D007119BC /* tif_open.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = tif_open.o; sourceTree = "<group>"; };
+		73C265761BB9EF4D007119BC /* tif_packbits.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = tif_packbits.o; sourceTree = "<group>"; };
+		73C265771BB9EF4D007119BC /* tif_pixarlog.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = tif_pixarlog.o; sourceTree = "<group>"; };
+		73C265781BB9EF4D007119BC /* tif_predict.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = tif_predict.o; sourceTree = "<group>"; };
+		73C265791BB9EF4D007119BC /* tif_print.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = tif_print.o; sourceTree = "<group>"; };
+		73C2657A1BB9EF4D007119BC /* tif_read.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = tif_read.o; sourceTree = "<group>"; };
+		73C2657B1BB9EF4D007119BC /* tif_stream.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = tif_stream.o; sourceTree = "<group>"; };
+		73C2657C1BB9EF4D007119BC /* tif_strip.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = tif_strip.o; sourceTree = "<group>"; };
+		73C2657D1BB9EF4D007119BC /* tif_swab.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = tif_swab.o; sourceTree = "<group>"; };
+		73C2657E1BB9EF4D007119BC /* tif_thunder.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = tif_thunder.o; sourceTree = "<group>"; };
+		73C2657F1BB9EF4D007119BC /* tif_tile.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = tif_tile.o; sourceTree = "<group>"; };
+		73C265801BB9EF4D007119BC /* tif_unix.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = tif_unix.o; sourceTree = "<group>"; };
+		73C265811BB9EF4D007119BC /* tif_version.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = tif_version.o; sourceTree = "<group>"; };
+		73C265821BB9EF4D007119BC /* tif_warning.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = tif_warning.o; sourceTree = "<group>"; };
+		73C265831BB9EF4D007119BC /* tif_write.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = tif_write.o; sourceTree = "<group>"; };
+		73C265841BB9EF4D007119BC /* tif_zip.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = tif_zip.o; sourceTree = "<group>"; };
+		73C265851BB9EF4D007119BC /* libtiff.def */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = libtiff.def; sourceTree = "<group>"; };
+		73C265861BB9EF4D007119BC /* libtiff.la */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = libtiff.la; sourceTree = "<group>"; };
+		73C265871BB9EF4D007119BC /* libtiff.map */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = libtiff.map; sourceTree = "<group>"; };
+		73C265881BB9EF4D007119BC /* libtiffxx.la */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = libtiffxx.la; sourceTree = "<group>"; };
+		73C265891BB9EF4D007119BC /* libtiffxx.map */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = libtiffxx.map; sourceTree = "<group>"; };
+		73C2658A1BB9EF4D007119BC /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		73C2658B1BB9EF4D007119BC /* Makefile.am */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		73C2658C1BB9EF4D007119BC /* Makefile.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		73C2658D1BB9EF4D007119BC /* Makefile.vc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.vc; sourceTree = "<group>"; };
+		73C2658E1BB9EF4D007119BC /* mkg3states */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = mkg3states; sourceTree = "<group>"; };
+		73C2658F1BB9EF4D007119BC /* mkg3states.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mkg3states.c; sourceTree = "<group>"; };
+		73C265901BB9EF4D007119BC /* mkg3states.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = mkg3states.o; sourceTree = "<group>"; };
+		73C265911BB9EF4D007119BC /* SConstruct */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SConstruct; sourceTree = "<group>"; };
+		73C265921BB9EF4D007119BC /* stamp-h1 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "stamp-h1"; sourceTree = "<group>"; };
+		73C265931BB9EF4D007119BC /* stamp-h2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "stamp-h2"; sourceTree = "<group>"; };
+		73C265941BB9EF4D007119BC /* t4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = t4.h; sourceTree = "<group>"; };
+		73C265951BB9EF4D007119BC /* tif_aux.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tif_aux.c; sourceTree = "<group>"; };
+		73C265961BB9EF4D007119BC /* tif_aux.lo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tif_aux.lo; sourceTree = "<group>"; };
+		73C265971BB9EF4D007119BC /* tif_aux.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = tif_aux.o; sourceTree = "<group>"; };
+		73C265981BB9EF4D007119BC /* tif_close.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tif_close.c; sourceTree = "<group>"; };
+		73C265991BB9EF4D007119BC /* tif_close.lo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tif_close.lo; sourceTree = "<group>"; };
+		73C2659A1BB9EF4D007119BC /* tif_close.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = tif_close.o; sourceTree = "<group>"; };
+		73C2659B1BB9EF4D007119BC /* tif_codec.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tif_codec.c; sourceTree = "<group>"; };
+		73C2659C1BB9EF4D007119BC /* tif_codec.lo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tif_codec.lo; sourceTree = "<group>"; };
+		73C2659D1BB9EF4D007119BC /* tif_codec.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = tif_codec.o; sourceTree = "<group>"; };
+		73C2659E1BB9EF4D007119BC /* tif_color.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tif_color.c; sourceTree = "<group>"; };
+		73C2659F1BB9EF4D007119BC /* tif_color.lo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tif_color.lo; sourceTree = "<group>"; };
+		73C265A01BB9EF4E007119BC /* tif_color.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = tif_color.o; sourceTree = "<group>"; };
+		73C265A11BB9EF4E007119BC /* tif_compress.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tif_compress.c; sourceTree = "<group>"; };
+		73C265A21BB9EF4E007119BC /* tif_compress.lo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tif_compress.lo; sourceTree = "<group>"; };
+		73C265A31BB9EF4E007119BC /* tif_compress.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = tif_compress.o; sourceTree = "<group>"; };
+		73C265A41BB9EF4E007119BC /* tif_config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tif_config.h; sourceTree = "<group>"; };
+		73C265A51BB9EF4E007119BC /* tif_config.h-vms */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "tif_config.h-vms"; sourceTree = "<group>"; };
+		73C265A61BB9EF4E007119BC /* tif_config.h.cmake.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tif_config.h.cmake.in; sourceTree = "<group>"; };
+		73C265A71BB9EF4E007119BC /* tif_config.h.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tif_config.h.in; sourceTree = "<group>"; };
+		73C265A81BB9EF4E007119BC /* tif_config.vc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tif_config.vc.h; sourceTree = "<group>"; };
+		73C265A91BB9EF4E007119BC /* tif_config.wince.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tif_config.wince.h; sourceTree = "<group>"; };
+		73C265AA1BB9EF4E007119BC /* tif_dir.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tif_dir.c; sourceTree = "<group>"; };
+		73C265AB1BB9EF4E007119BC /* tif_dir.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tif_dir.h; sourceTree = "<group>"; };
+		73C265AC1BB9EF4E007119BC /* tif_dir.lo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tif_dir.lo; sourceTree = "<group>"; };
+		73C265AD1BB9EF4E007119BC /* tif_dir.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = tif_dir.o; sourceTree = "<group>"; };
+		73C265AE1BB9EF4E007119BC /* tif_dirinfo.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tif_dirinfo.c; sourceTree = "<group>"; };
+		73C265AF1BB9EF4E007119BC /* tif_dirinfo.lo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tif_dirinfo.lo; sourceTree = "<group>"; };
+		73C265B01BB9EF4E007119BC /* tif_dirinfo.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = tif_dirinfo.o; sourceTree = "<group>"; };
+		73C265B11BB9EF4E007119BC /* tif_dirread.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tif_dirread.c; sourceTree = "<group>"; };
+		73C265B21BB9EF4E007119BC /* tif_dirread.lo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tif_dirread.lo; sourceTree = "<group>"; };
+		73C265B31BB9EF4E007119BC /* tif_dirread.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = tif_dirread.o; sourceTree = "<group>"; };
+		73C265B41BB9EF4E007119BC /* tif_dirwrite.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tif_dirwrite.c; sourceTree = "<group>"; };
+		73C265B51BB9EF4E007119BC /* tif_dirwrite.lo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tif_dirwrite.lo; sourceTree = "<group>"; };
+		73C265B61BB9EF4E007119BC /* tif_dirwrite.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = tif_dirwrite.o; sourceTree = "<group>"; };
+		73C265B71BB9EF4E007119BC /* tif_dumpmode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tif_dumpmode.c; sourceTree = "<group>"; };
+		73C265B81BB9EF4E007119BC /* tif_dumpmode.lo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tif_dumpmode.lo; sourceTree = "<group>"; };
+		73C265B91BB9EF4E007119BC /* tif_dumpmode.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = tif_dumpmode.o; sourceTree = "<group>"; };
+		73C265BA1BB9EF4E007119BC /* tif_error.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tif_error.c; sourceTree = "<group>"; };
+		73C265BB1BB9EF4E007119BC /* tif_error.lo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tif_error.lo; sourceTree = "<group>"; };
+		73C265BC1BB9EF4E007119BC /* tif_error.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = tif_error.o; sourceTree = "<group>"; };
+		73C265BD1BB9EF4E007119BC /* tif_extension.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tif_extension.c; sourceTree = "<group>"; };
+		73C265BE1BB9EF4E007119BC /* tif_extension.lo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tif_extension.lo; sourceTree = "<group>"; };
+		73C265BF1BB9EF4E007119BC /* tif_extension.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = tif_extension.o; sourceTree = "<group>"; };
+		73C265C01BB9EF4E007119BC /* tif_fax3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tif_fax3.c; sourceTree = "<group>"; };
+		73C265C11BB9EF4E007119BC /* tif_fax3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tif_fax3.h; sourceTree = "<group>"; };
+		73C265C21BB9EF4E007119BC /* tif_fax3.lo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tif_fax3.lo; sourceTree = "<group>"; };
+		73C265C31BB9EF4E007119BC /* tif_fax3.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = tif_fax3.o; sourceTree = "<group>"; };
+		73C265C41BB9EF4E007119BC /* tif_fax3sm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tif_fax3sm.c; sourceTree = "<group>"; };
+		73C265C51BB9EF4E007119BC /* tif_fax3sm.lo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tif_fax3sm.lo; sourceTree = "<group>"; };
+		73C265C61BB9EF4E007119BC /* tif_fax3sm.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = tif_fax3sm.o; sourceTree = "<group>"; };
+		73C265C71BB9EF4E007119BC /* tif_flush.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tif_flush.c; sourceTree = "<group>"; };
+		73C265C81BB9EF4E007119BC /* tif_flush.lo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tif_flush.lo; sourceTree = "<group>"; };
+		73C265C91BB9EF4E007119BC /* tif_flush.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = tif_flush.o; sourceTree = "<group>"; };
+		73C265CA1BB9EF4E007119BC /* tif_getimage.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tif_getimage.c; sourceTree = "<group>"; };
+		73C265CB1BB9EF4E007119BC /* tif_getimage.lo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tif_getimage.lo; sourceTree = "<group>"; };
+		73C265CC1BB9EF4E007119BC /* tif_getimage.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = tif_getimage.o; sourceTree = "<group>"; };
+		73C265CD1BB9EF4E007119BC /* tif_jbig.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tif_jbig.c; sourceTree = "<group>"; };
+		73C265CE1BB9EF4E007119BC /* tif_jbig.lo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tif_jbig.lo; sourceTree = "<group>"; };
+		73C265CF1BB9EF4E007119BC /* tif_jbig.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = tif_jbig.o; sourceTree = "<group>"; };
+		73C265D01BB9EF4E007119BC /* tif_jpeg.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tif_jpeg.c; sourceTree = "<group>"; };
+		73C265D11BB9EF4E007119BC /* tif_jpeg.lo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tif_jpeg.lo; sourceTree = "<group>"; };
+		73C265D21BB9EF4E007119BC /* tif_jpeg.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = tif_jpeg.o; sourceTree = "<group>"; };
+		73C265D31BB9EF4E007119BC /* tif_jpeg_12.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tif_jpeg_12.c; sourceTree = "<group>"; };
+		73C265D41BB9EF4E007119BC /* tif_jpeg_12.lo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tif_jpeg_12.lo; sourceTree = "<group>"; };
+		73C265D51BB9EF4E007119BC /* tif_jpeg_12.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = tif_jpeg_12.o; sourceTree = "<group>"; };
+		73C265D61BB9EF4E007119BC /* tif_luv.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tif_luv.c; sourceTree = "<group>"; };
+		73C265D71BB9EF4E007119BC /* tif_luv.lo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tif_luv.lo; sourceTree = "<group>"; };
+		73C265D81BB9EF4E007119BC /* tif_luv.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = tif_luv.o; sourceTree = "<group>"; };
+		73C265D91BB9EF4E007119BC /* tif_lzma.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tif_lzma.c; sourceTree = "<group>"; };
+		73C265DA1BB9EF4E007119BC /* tif_lzma.lo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tif_lzma.lo; sourceTree = "<group>"; };
+		73C265DB1BB9EF4E007119BC /* tif_lzma.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = tif_lzma.o; sourceTree = "<group>"; };
+		73C265DC1BB9EF4E007119BC /* tif_lzw.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tif_lzw.c; sourceTree = "<group>"; };
+		73C265DD1BB9EF4E007119BC /* tif_lzw.lo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tif_lzw.lo; sourceTree = "<group>"; };
+		73C265DE1BB9EF4E007119BC /* tif_lzw.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = tif_lzw.o; sourceTree = "<group>"; };
+		73C265DF1BB9EF4E007119BC /* tif_next.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tif_next.c; sourceTree = "<group>"; };
+		73C265E01BB9EF4E007119BC /* tif_next.lo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tif_next.lo; sourceTree = "<group>"; };
+		73C265E11BB9EF4E007119BC /* tif_next.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = tif_next.o; sourceTree = "<group>"; };
+		73C265E21BB9EF4E007119BC /* tif_ojpeg.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tif_ojpeg.c; sourceTree = "<group>"; };
+		73C265E31BB9EF4E007119BC /* tif_ojpeg.lo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tif_ojpeg.lo; sourceTree = "<group>"; };
+		73C265E41BB9EF4E007119BC /* tif_ojpeg.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = tif_ojpeg.o; sourceTree = "<group>"; };
+		73C265E51BB9EF4E007119BC /* tif_open.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tif_open.c; sourceTree = "<group>"; };
+		73C265E61BB9EF4E007119BC /* tif_open.lo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tif_open.lo; sourceTree = "<group>"; };
+		73C265E71BB9EF4E007119BC /* tif_open.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = tif_open.o; sourceTree = "<group>"; };
+		73C265E81BB9EF4E007119BC /* tif_packbits.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tif_packbits.c; sourceTree = "<group>"; };
+		73C265E91BB9EF4E007119BC /* tif_packbits.lo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tif_packbits.lo; sourceTree = "<group>"; };
+		73C265EA1BB9EF4E007119BC /* tif_packbits.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = tif_packbits.o; sourceTree = "<group>"; };
+		73C265EB1BB9EF4E007119BC /* tif_pixarlog.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tif_pixarlog.c; sourceTree = "<group>"; };
+		73C265EC1BB9EF4E007119BC /* tif_pixarlog.lo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tif_pixarlog.lo; sourceTree = "<group>"; };
+		73C265ED1BB9EF4E007119BC /* tif_pixarlog.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = tif_pixarlog.o; sourceTree = "<group>"; };
+		73C265EE1BB9EF4E007119BC /* tif_predict.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tif_predict.c; sourceTree = "<group>"; };
+		73C265EF1BB9EF4E007119BC /* tif_predict.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tif_predict.h; sourceTree = "<group>"; };
+		73C265F01BB9EF4E007119BC /* tif_predict.lo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tif_predict.lo; sourceTree = "<group>"; };
+		73C265F11BB9EF4E007119BC /* tif_predict.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = tif_predict.o; sourceTree = "<group>"; };
+		73C265F21BB9EF4E007119BC /* tif_print.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tif_print.c; sourceTree = "<group>"; };
+		73C265F31BB9EF4E007119BC /* tif_print.lo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tif_print.lo; sourceTree = "<group>"; };
+		73C265F41BB9EF4E007119BC /* tif_print.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = tif_print.o; sourceTree = "<group>"; };
+		73C265F51BB9EF4E007119BC /* tif_read.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tif_read.c; sourceTree = "<group>"; };
+		73C265F61BB9EF4E007119BC /* tif_read.lo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tif_read.lo; sourceTree = "<group>"; };
+		73C265F71BB9EF4E007119BC /* tif_read.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = tif_read.o; sourceTree = "<group>"; };
+		73C265F81BB9EF4E007119BC /* tif_stream.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tif_stream.cxx; sourceTree = "<group>"; };
+		73C265F91BB9EF4E007119BC /* tif_stream.lo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tif_stream.lo; sourceTree = "<group>"; };
+		73C265FA1BB9EF4E007119BC /* tif_stream.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = tif_stream.o; sourceTree = "<group>"; };
+		73C265FB1BB9EF4E007119BC /* tif_strip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tif_strip.c; sourceTree = "<group>"; };
+		73C265FC1BB9EF4E007119BC /* tif_strip.lo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tif_strip.lo; sourceTree = "<group>"; };
+		73C265FD1BB9EF4E007119BC /* tif_strip.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = tif_strip.o; sourceTree = "<group>"; };
+		73C265FE1BB9EF4E007119BC /* tif_swab.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tif_swab.c; sourceTree = "<group>"; };
+		73C265FF1BB9EF4E007119BC /* tif_swab.lo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tif_swab.lo; sourceTree = "<group>"; };
+		73C266001BB9EF4E007119BC /* tif_swab.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = tif_swab.o; sourceTree = "<group>"; };
+		73C266011BB9EF4E007119BC /* tif_thunder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tif_thunder.c; sourceTree = "<group>"; };
+		73C266021BB9EF4E007119BC /* tif_thunder.lo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tif_thunder.lo; sourceTree = "<group>"; };
+		73C266031BB9EF4E007119BC /* tif_thunder.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = tif_thunder.o; sourceTree = "<group>"; };
+		73C266041BB9EF4E007119BC /* tif_tile.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tif_tile.c; sourceTree = "<group>"; };
+		73C266051BB9EF4E007119BC /* tif_tile.lo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tif_tile.lo; sourceTree = "<group>"; };
+		73C266061BB9EF4E007119BC /* tif_tile.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = tif_tile.o; sourceTree = "<group>"; };
+		73C266071BB9EF4E007119BC /* tif_unix.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tif_unix.c; sourceTree = "<group>"; };
+		73C266081BB9EF4E007119BC /* tif_unix.lo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tif_unix.lo; sourceTree = "<group>"; };
+		73C266091BB9EF4E007119BC /* tif_unix.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = tif_unix.o; sourceTree = "<group>"; };
+		73C2660A1BB9EF4E007119BC /* tif_version.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tif_version.c; sourceTree = "<group>"; };
+		73C2660B1BB9EF4E007119BC /* tif_version.lo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tif_version.lo; sourceTree = "<group>"; };
+		73C2660C1BB9EF4E007119BC /* tif_version.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = tif_version.o; sourceTree = "<group>"; };
+		73C2660D1BB9EF4E007119BC /* tif_warning.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tif_warning.c; sourceTree = "<group>"; };
+		73C2660E1BB9EF4E007119BC /* tif_warning.lo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tif_warning.lo; sourceTree = "<group>"; };
+		73C2660F1BB9EF4E007119BC /* tif_warning.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = tif_warning.o; sourceTree = "<group>"; };
+		73C266101BB9EF4E007119BC /* tif_win32.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tif_win32.c; sourceTree = "<group>"; };
+		73C266111BB9EF4E007119BC /* tif_write.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tif_write.c; sourceTree = "<group>"; };
+		73C266121BB9EF4E007119BC /* tif_write.lo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tif_write.lo; sourceTree = "<group>"; };
+		73C266131BB9EF4E007119BC /* tif_write.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = tif_write.o; sourceTree = "<group>"; };
+		73C266141BB9EF4E007119BC /* tif_zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tif_zip.c; sourceTree = "<group>"; };
+		73C266151BB9EF4E007119BC /* tif_zip.lo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tif_zip.lo; sourceTree = "<group>"; };
+		73C266161BB9EF4E007119BC /* tif_zip.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = tif_zip.o; sourceTree = "<group>"; };
+		73C266171BB9EF4E007119BC /* tiff.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tiff.h; sourceTree = "<group>"; };
+		73C266181BB9EF4E007119BC /* tiffconf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tiffconf.h; sourceTree = "<group>"; };
+		73C266191BB9EF4E007119BC /* tiffconf.h.cmake.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tiffconf.h.cmake.in; sourceTree = "<group>"; };
+		73C2661A1BB9EF4E007119BC /* tiffconf.h.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tiffconf.h.in; sourceTree = "<group>"; };
+		73C2661B1BB9EF4E007119BC /* tiffconf.vc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tiffconf.vc.h; sourceTree = "<group>"; };
+		73C2661C1BB9EF4E007119BC /* tiffconf.wince.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tiffconf.wince.h; sourceTree = "<group>"; };
+		73C2661D1BB9EF4E007119BC /* tiffio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tiffio.h; sourceTree = "<group>"; };
+		73C2661E1BB9EF4E007119BC /* tiffio.hxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = tiffio.hxx; sourceTree = "<group>"; };
+		73C2661F1BB9EF4E007119BC /* tiffiop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tiffiop.h; sourceTree = "<group>"; };
+		73C266201BB9EF4E007119BC /* tiffvers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tiffvers.h; sourceTree = "<group>"; };
+		73C266211BB9EF4E007119BC /* uvcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uvcode.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		73C2651B1BB9EECB007119BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73C266461BB9EF4E007119BC /* tif_stream.o in Frameworks */,
+				73C266571BB9EF4E007119BC /* tif_close.o in Frameworks */,
+				73C266881BB9EF4E007119BC /* tif_ojpeg.o in Frameworks */,
+				73C2669F1BB9EF4E007119BC /* tif_tile.o in Frameworks */,
+				73C2668A1BB9EF4E007119BC /* tif_open.o in Frameworks */,
+				73C2666D1BB9EF4E007119BC /* tif_error.o in Frameworks */,
+				73C266A31BB9EF4E007119BC /* tif_version.o in Frameworks */,
+				73C2665B1BB9EF4E007119BC /* tif_color.o in Frameworks */,
+				73C266591BB9EF4E007119BC /* tif_codec.o in Frameworks */,
+				73C266291BB9EF4E007119BC /* tif_close.o in Frameworks */,
+				73C2662C1BB9EF4E007119BC /* tif_compress.o in Frameworks */,
+				73C2664A1BB9EF4E007119BC /* tif_tile.o in Frameworks */,
+				73C266841BB9EF4E007119BC /* tif_lzw.o in Frameworks */,
+				73C2663A1BB9EF4E007119BC /* tif_jpeg_12.o in Frameworks */,
+				73C2663B1BB9EF4E007119BC /* tif_luv.o in Frameworks */,
+				73C2668E1BB9EF4E007119BC /* tif_pixarlog.o in Frameworks */,
+				73C2664C1BB9EF4E007119BC /* tif_version.o in Frameworks */,
+				73C2663E1BB9EF4E007119BC /* tif_next.o in Frameworks */,
+				73C266631BB9EF4E007119BC /* tif_dir.o in Frameworks */,
+				73C266231BB9EF4E007119BC /* libtiff.a in Frameworks */,
+				73C2663C1BB9EF4E007119BC /* tif_lzma.o in Frameworks */,
+				73C2665D1BB9EF4E007119BC /* tif_compress.o in Frameworks */,
+				73C2662A1BB9EF4E007119BC /* tif_codec.o in Frameworks */,
+				73C266371BB9EF4E007119BC /* tif_getimage.o in Frameworks */,
+				73C266431BB9EF4E007119BC /* tif_predict.o in Frameworks */,
+				73C2667C1BB9EF4E007119BC /* tif_jpeg.o in Frameworks */,
+				73C266741BB9EF4E007119BC /* tif_fax3sm.o in Frameworks */,
+				73C2662E1BB9EF4E007119BC /* tif_dirinfo.o in Frameworks */,
+				73C2666B1BB9EF4E007119BC /* tif_dumpmode.o in Frameworks */,
+				73C266A51BB9EF4E007119BC /* tif_warning.o in Frameworks */,
+				73C266341BB9EF4E007119BC /* tif_fax3.o in Frameworks */,
+				73C266421BB9EF4E007119BC /* tif_pixarlog.o in Frameworks */,
+				73C266491BB9EF4E007119BC /* tif_thunder.o in Frameworks */,
+				73C266521BB9EF4E007119BC /* mkg3states.o in Frameworks */,
+				73C2663F1BB9EF4E007119BC /* tif_ojpeg.o in Frameworks */,
+				73C2664D1BB9EF4E007119BC /* tif_warning.o in Frameworks */,
+				73C266381BB9EF4E007119BC /* tif_jbig.o in Frameworks */,
+				73C2668C1BB9EF4E007119BC /* tif_packbits.o in Frameworks */,
+				73C266261BB9EF4E007119BC /* libtiffxx.a in Frameworks */,
+				73C266651BB9EF4E007119BC /* tif_dirinfo.o in Frameworks */,
+				73C266801BB9EF4E007119BC /* tif_luv.o in Frameworks */,
+				73C2664F1BB9EF4E007119BC /* tif_zip.o in Frameworks */,
+				73C266221BB9EF4E007119BC /* libtiff.5.dylib in Frameworks */,
+				73C266451BB9EF4E007119BC /* tif_read.o in Frameworks */,
+				73C266971BB9EF4E007119BC /* tif_stream.o in Frameworks */,
+				73C266691BB9EF4E007119BC /* tif_dirwrite.o in Frameworks */,
+				73C266251BB9EF4E007119BC /* libtiffxx.5.dylib in Frameworks */,
+				73C266311BB9EF4E007119BC /* tif_dumpmode.o in Frameworks */,
+				73C2667A1BB9EF4E007119BC /* tif_jbig.o in Frameworks */,
+				73C266321BB9EF4E007119BC /* tif_error.o in Frameworks */,
+				73C266241BB9EF4E007119BC /* libtiff.dylib in Frameworks */,
+				73C266671BB9EF4E007119BC /* tif_dirread.o in Frameworks */,
+				73C266721BB9EF4E007119BC /* tif_fax3.o in Frameworks */,
+				73C266301BB9EF4E007119BC /* tif_dirwrite.o in Frameworks */,
+				73C266471BB9EF4E007119BC /* tif_strip.o in Frameworks */,
+				73C266351BB9EF4E007119BC /* tif_fax3sm.o in Frameworks */,
+				73C266AA1BB9EF4E007119BC /* tif_zip.o in Frameworks */,
+				73C266A11BB9EF4E007119BC /* tif_unix.o in Frameworks */,
+				73C2669D1BB9EF4E007119BC /* tif_thunder.o in Frameworks */,
+				73C2667E1BB9EF4E007119BC /* tif_jpeg_12.o in Frameworks */,
+				73C2669B1BB9EF4E007119BC /* tif_swab.o in Frameworks */,
+				73C266481BB9EF4E007119BC /* tif_swab.o in Frameworks */,
+				73C2664B1BB9EF4E007119BC /* tif_unix.o in Frameworks */,
+				73C266271BB9EF4E007119BC /* libtiffxx.dylib in Frameworks */,
+				73C266281BB9EF4E007119BC /* tif_aux.o in Frameworks */,
+				73C266781BB9EF4E007119BC /* tif_getimage.o in Frameworks */,
+				73C266911BB9EF4E007119BC /* tif_predict.o in Frameworks */,
+				73C266401BB9EF4E007119BC /* tif_open.o in Frameworks */,
+				73C266A81BB9EF4E007119BC /* tif_write.o in Frameworks */,
+				73C2662B1BB9EF4E007119BC /* tif_color.o in Frameworks */,
+				73C266951BB9EF4E007119BC /* tif_read.o in Frameworks */,
+				73C266551BB9EF4E007119BC /* tif_aux.o in Frameworks */,
+				73C266361BB9EF4E007119BC /* tif_flush.o in Frameworks */,
+				73C266931BB9EF4E007119BC /* tif_print.o in Frameworks */,
+				73C266821BB9EF4E007119BC /* tif_lzma.o in Frameworks */,
+				73C2662D1BB9EF4E007119BC /* tif_dir.o in Frameworks */,
+				73C2664E1BB9EF4E007119BC /* tif_write.o in Frameworks */,
+				73C266761BB9EF4E007119BC /* tif_flush.o in Frameworks */,
+				73C266441BB9EF4E007119BC /* tif_print.o in Frameworks */,
+				73C2666F1BB9EF4E007119BC /* tif_extension.o in Frameworks */,
+				73C266991BB9EF4E007119BC /* tif_strip.o in Frameworks */,
+				73C266861BB9EF4E007119BC /* tif_next.o in Frameworks */,
+				73C2662F1BB9EF4E007119BC /* tif_dirread.o in Frameworks */,
+				73C2663D1BB9EF4E007119BC /* tif_lzw.o in Frameworks */,
+				73C266331BB9EF4E007119BC /* tif_extension.o in Frameworks */,
+				73C266411BB9EF4E007119BC /* tif_packbits.o in Frameworks */,
+				73C266391BB9EF4E007119BC /* tif_jpeg.o in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		73C265151BB9EECB007119BC = {
+			isa = PBXGroup;
+			children = (
+				73C265251BB9EF4D007119BC /* libtiff */,
+				73C2651F1BB9EECB007119BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		73C2651F1BB9EECB007119BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				73C2651E1BB9EECB007119BC /* liblibtiff.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		73C265251BB9EF4D007119BC /* libtiff */ = {
+			isa = PBXGroup;
+			children = (
+				73C265261BB9EF4D007119BC /* .deps */,
+				73C265511BB9EF4D007119BC /* CMakeLists.txt */,
+				73C265521BB9EF4D007119BC /* libs */,
+				73C265851BB9EF4D007119BC /* libtiff.def */,
+				73C265861BB9EF4D007119BC /* libtiff.la */,
+				73C265871BB9EF4D007119BC /* libtiff.map */,
+				73C265881BB9EF4D007119BC /* libtiffxx.la */,
+				73C265891BB9EF4D007119BC /* libtiffxx.map */,
+				73C2658A1BB9EF4D007119BC /* Makefile */,
+				73C2658B1BB9EF4D007119BC /* Makefile.am */,
+				73C2658C1BB9EF4D007119BC /* Makefile.in */,
+				73C2658D1BB9EF4D007119BC /* Makefile.vc */,
+				73C2658E1BB9EF4D007119BC /* mkg3states */,
+				73C2658F1BB9EF4D007119BC /* mkg3states.c */,
+				73C265901BB9EF4D007119BC /* mkg3states.o */,
+				73C265911BB9EF4D007119BC /* SConstruct */,
+				73C265921BB9EF4D007119BC /* stamp-h1 */,
+				73C265931BB9EF4D007119BC /* stamp-h2 */,
+				73C265941BB9EF4D007119BC /* t4.h */,
+				73C265951BB9EF4D007119BC /* tif_aux.c */,
+				73C265961BB9EF4D007119BC /* tif_aux.lo */,
+				73C265971BB9EF4D007119BC /* tif_aux.o */,
+				73C265981BB9EF4D007119BC /* tif_close.c */,
+				73C265991BB9EF4D007119BC /* tif_close.lo */,
+				73C2659A1BB9EF4D007119BC /* tif_close.o */,
+				73C2659B1BB9EF4D007119BC /* tif_codec.c */,
+				73C2659C1BB9EF4D007119BC /* tif_codec.lo */,
+				73C2659D1BB9EF4D007119BC /* tif_codec.o */,
+				73C2659E1BB9EF4D007119BC /* tif_color.c */,
+				73C2659F1BB9EF4D007119BC /* tif_color.lo */,
+				73C265A01BB9EF4E007119BC /* tif_color.o */,
+				73C265A11BB9EF4E007119BC /* tif_compress.c */,
+				73C265A21BB9EF4E007119BC /* tif_compress.lo */,
+				73C265A31BB9EF4E007119BC /* tif_compress.o */,
+				73C265A41BB9EF4E007119BC /* tif_config.h */,
+				73C265A51BB9EF4E007119BC /* tif_config.h-vms */,
+				73C265A61BB9EF4E007119BC /* tif_config.h.cmake.in */,
+				73C265A71BB9EF4E007119BC /* tif_config.h.in */,
+				73C265A81BB9EF4E007119BC /* tif_config.vc.h */,
+				73C265A91BB9EF4E007119BC /* tif_config.wince.h */,
+				73C265AA1BB9EF4E007119BC /* tif_dir.c */,
+				73C265AB1BB9EF4E007119BC /* tif_dir.h */,
+				73C265AC1BB9EF4E007119BC /* tif_dir.lo */,
+				73C265AD1BB9EF4E007119BC /* tif_dir.o */,
+				73C265AE1BB9EF4E007119BC /* tif_dirinfo.c */,
+				73C265AF1BB9EF4E007119BC /* tif_dirinfo.lo */,
+				73C265B01BB9EF4E007119BC /* tif_dirinfo.o */,
+				73C265B11BB9EF4E007119BC /* tif_dirread.c */,
+				73C265B21BB9EF4E007119BC /* tif_dirread.lo */,
+				73C265B31BB9EF4E007119BC /* tif_dirread.o */,
+				73C265B41BB9EF4E007119BC /* tif_dirwrite.c */,
+				73C265B51BB9EF4E007119BC /* tif_dirwrite.lo */,
+				73C265B61BB9EF4E007119BC /* tif_dirwrite.o */,
+				73C265B71BB9EF4E007119BC /* tif_dumpmode.c */,
+				73C265B81BB9EF4E007119BC /* tif_dumpmode.lo */,
+				73C265B91BB9EF4E007119BC /* tif_dumpmode.o */,
+				73C265BA1BB9EF4E007119BC /* tif_error.c */,
+				73C265BB1BB9EF4E007119BC /* tif_error.lo */,
+				73C265BC1BB9EF4E007119BC /* tif_error.o */,
+				73C265BD1BB9EF4E007119BC /* tif_extension.c */,
+				73C265BE1BB9EF4E007119BC /* tif_extension.lo */,
+				73C265BF1BB9EF4E007119BC /* tif_extension.o */,
+				73C265C01BB9EF4E007119BC /* tif_fax3.c */,
+				73C265C11BB9EF4E007119BC /* tif_fax3.h */,
+				73C265C21BB9EF4E007119BC /* tif_fax3.lo */,
+				73C265C31BB9EF4E007119BC /* tif_fax3.o */,
+				73C265C41BB9EF4E007119BC /* tif_fax3sm.c */,
+				73C265C51BB9EF4E007119BC /* tif_fax3sm.lo */,
+				73C265C61BB9EF4E007119BC /* tif_fax3sm.o */,
+				73C265C71BB9EF4E007119BC /* tif_flush.c */,
+				73C265C81BB9EF4E007119BC /* tif_flush.lo */,
+				73C265C91BB9EF4E007119BC /* tif_flush.o */,
+				73C265CA1BB9EF4E007119BC /* tif_getimage.c */,
+				73C265CB1BB9EF4E007119BC /* tif_getimage.lo */,
+				73C265CC1BB9EF4E007119BC /* tif_getimage.o */,
+				73C265CD1BB9EF4E007119BC /* tif_jbig.c */,
+				73C265CE1BB9EF4E007119BC /* tif_jbig.lo */,
+				73C265CF1BB9EF4E007119BC /* tif_jbig.o */,
+				73C265D01BB9EF4E007119BC /* tif_jpeg.c */,
+				73C265D11BB9EF4E007119BC /* tif_jpeg.lo */,
+				73C265D21BB9EF4E007119BC /* tif_jpeg.o */,
+				73C265D31BB9EF4E007119BC /* tif_jpeg_12.c */,
+				73C265D41BB9EF4E007119BC /* tif_jpeg_12.lo */,
+				73C265D51BB9EF4E007119BC /* tif_jpeg_12.o */,
+				73C265D61BB9EF4E007119BC /* tif_luv.c */,
+				73C265D71BB9EF4E007119BC /* tif_luv.lo */,
+				73C265D81BB9EF4E007119BC /* tif_luv.o */,
+				73C265D91BB9EF4E007119BC /* tif_lzma.c */,
+				73C265DA1BB9EF4E007119BC /* tif_lzma.lo */,
+				73C265DB1BB9EF4E007119BC /* tif_lzma.o */,
+				73C265DC1BB9EF4E007119BC /* tif_lzw.c */,
+				73C265DD1BB9EF4E007119BC /* tif_lzw.lo */,
+				73C265DE1BB9EF4E007119BC /* tif_lzw.o */,
+				73C265DF1BB9EF4E007119BC /* tif_next.c */,
+				73C265E01BB9EF4E007119BC /* tif_next.lo */,
+				73C265E11BB9EF4E007119BC /* tif_next.o */,
+				73C265E21BB9EF4E007119BC /* tif_ojpeg.c */,
+				73C265E31BB9EF4E007119BC /* tif_ojpeg.lo */,
+				73C265E41BB9EF4E007119BC /* tif_ojpeg.o */,
+				73C265E51BB9EF4E007119BC /* tif_open.c */,
+				73C265E61BB9EF4E007119BC /* tif_open.lo */,
+				73C265E71BB9EF4E007119BC /* tif_open.o */,
+				73C265E81BB9EF4E007119BC /* tif_packbits.c */,
+				73C265E91BB9EF4E007119BC /* tif_packbits.lo */,
+				73C265EA1BB9EF4E007119BC /* tif_packbits.o */,
+				73C265EB1BB9EF4E007119BC /* tif_pixarlog.c */,
+				73C265EC1BB9EF4E007119BC /* tif_pixarlog.lo */,
+				73C265ED1BB9EF4E007119BC /* tif_pixarlog.o */,
+				73C265EE1BB9EF4E007119BC /* tif_predict.c */,
+				73C265EF1BB9EF4E007119BC /* tif_predict.h */,
+				73C265F01BB9EF4E007119BC /* tif_predict.lo */,
+				73C265F11BB9EF4E007119BC /* tif_predict.o */,
+				73C265F21BB9EF4E007119BC /* tif_print.c */,
+				73C265F31BB9EF4E007119BC /* tif_print.lo */,
+				73C265F41BB9EF4E007119BC /* tif_print.o */,
+				73C265F51BB9EF4E007119BC /* tif_read.c */,
+				73C265F61BB9EF4E007119BC /* tif_read.lo */,
+				73C265F71BB9EF4E007119BC /* tif_read.o */,
+				73C265F81BB9EF4E007119BC /* tif_stream.cxx */,
+				73C265F91BB9EF4E007119BC /* tif_stream.lo */,
+				73C265FA1BB9EF4E007119BC /* tif_stream.o */,
+				73C265FB1BB9EF4E007119BC /* tif_strip.c */,
+				73C265FC1BB9EF4E007119BC /* tif_strip.lo */,
+				73C265FD1BB9EF4E007119BC /* tif_strip.o */,
+				73C265FE1BB9EF4E007119BC /* tif_swab.c */,
+				73C265FF1BB9EF4E007119BC /* tif_swab.lo */,
+				73C266001BB9EF4E007119BC /* tif_swab.o */,
+				73C266011BB9EF4E007119BC /* tif_thunder.c */,
+				73C266021BB9EF4E007119BC /* tif_thunder.lo */,
+				73C266031BB9EF4E007119BC /* tif_thunder.o */,
+				73C266041BB9EF4E007119BC /* tif_tile.c */,
+				73C266051BB9EF4E007119BC /* tif_tile.lo */,
+				73C266061BB9EF4E007119BC /* tif_tile.o */,
+				73C266071BB9EF4E007119BC /* tif_unix.c */,
+				73C266081BB9EF4E007119BC /* tif_unix.lo */,
+				73C266091BB9EF4E007119BC /* tif_unix.o */,
+				73C2660A1BB9EF4E007119BC /* tif_version.c */,
+				73C2660B1BB9EF4E007119BC /* tif_version.lo */,
+				73C2660C1BB9EF4E007119BC /* tif_version.o */,
+				73C2660D1BB9EF4E007119BC /* tif_warning.c */,
+				73C2660E1BB9EF4E007119BC /* tif_warning.lo */,
+				73C2660F1BB9EF4E007119BC /* tif_warning.o */,
+				73C266101BB9EF4E007119BC /* tif_win32.c */,
+				73C266111BB9EF4E007119BC /* tif_write.c */,
+				73C266121BB9EF4E007119BC /* tif_write.lo */,
+				73C266131BB9EF4E007119BC /* tif_write.o */,
+				73C266141BB9EF4E007119BC /* tif_zip.c */,
+				73C266151BB9EF4E007119BC /* tif_zip.lo */,
+				73C266161BB9EF4E007119BC /* tif_zip.o */,
+				73C266171BB9EF4E007119BC /* tiff.h */,
+				73C266181BB9EF4E007119BC /* tiffconf.h */,
+				73C266191BB9EF4E007119BC /* tiffconf.h.cmake.in */,
+				73C2661A1BB9EF4E007119BC /* tiffconf.h.in */,
+				73C2661B1BB9EF4E007119BC /* tiffconf.vc.h */,
+				73C2661C1BB9EF4E007119BC /* tiffconf.wince.h */,
+				73C2661D1BB9EF4E007119BC /* tiffio.h */,
+				73C2661E1BB9EF4E007119BC /* tiffio.hxx */,
+				73C2661F1BB9EF4E007119BC /* tiffiop.h */,
+				73C266201BB9EF4E007119BC /* tiffvers.h */,
+				73C266211BB9EF4E007119BC /* uvcode.h */,
+			);
+			path = libtiff;
+			sourceTree = "<group>";
+		};
+		73C265261BB9EF4D007119BC /* .deps */ = {
+			isa = PBXGroup;
+			children = (
+				73C265271BB9EF4D007119BC /* mkg3states.Po */,
+				73C265281BB9EF4D007119BC /* tif_aux.Plo */,
+				73C265291BB9EF4D007119BC /* tif_close.Plo */,
+				73C2652A1BB9EF4D007119BC /* tif_codec.Plo */,
+				73C2652B1BB9EF4D007119BC /* tif_color.Plo */,
+				73C2652C1BB9EF4D007119BC /* tif_compress.Plo */,
+				73C2652D1BB9EF4D007119BC /* tif_dir.Plo */,
+				73C2652E1BB9EF4D007119BC /* tif_dirinfo.Plo */,
+				73C2652F1BB9EF4D007119BC /* tif_dirread.Plo */,
+				73C265301BB9EF4D007119BC /* tif_dirwrite.Plo */,
+				73C265311BB9EF4D007119BC /* tif_dumpmode.Plo */,
+				73C265321BB9EF4D007119BC /* tif_error.Plo */,
+				73C265331BB9EF4D007119BC /* tif_extension.Plo */,
+				73C265341BB9EF4D007119BC /* tif_fax3.Plo */,
+				73C265351BB9EF4D007119BC /* tif_fax3sm.Plo */,
+				73C265361BB9EF4D007119BC /* tif_flush.Plo */,
+				73C265371BB9EF4D007119BC /* tif_getimage.Plo */,
+				73C265381BB9EF4D007119BC /* tif_jbig.Plo */,
+				73C265391BB9EF4D007119BC /* tif_jpeg.Plo */,
+				73C2653A1BB9EF4D007119BC /* tif_jpeg_12.Plo */,
+				73C2653B1BB9EF4D007119BC /* tif_luv.Plo */,
+				73C2653C1BB9EF4D007119BC /* tif_lzma.Plo */,
+				73C2653D1BB9EF4D007119BC /* tif_lzw.Plo */,
+				73C2653E1BB9EF4D007119BC /* tif_next.Plo */,
+				73C2653F1BB9EF4D007119BC /* tif_ojpeg.Plo */,
+				73C265401BB9EF4D007119BC /* tif_open.Plo */,
+				73C265411BB9EF4D007119BC /* tif_packbits.Plo */,
+				73C265421BB9EF4D007119BC /* tif_pixarlog.Plo */,
+				73C265431BB9EF4D007119BC /* tif_predict.Plo */,
+				73C265441BB9EF4D007119BC /* tif_print.Plo */,
+				73C265451BB9EF4D007119BC /* tif_read.Plo */,
+				73C265461BB9EF4D007119BC /* tif_stream.Plo */,
+				73C265471BB9EF4D007119BC /* tif_strip.Plo */,
+				73C265481BB9EF4D007119BC /* tif_swab.Plo */,
+				73C265491BB9EF4D007119BC /* tif_thunder.Plo */,
+				73C2654A1BB9EF4D007119BC /* tif_tile.Plo */,
+				73C2654B1BB9EF4D007119BC /* tif_unix.Plo */,
+				73C2654C1BB9EF4D007119BC /* tif_version.Plo */,
+				73C2654D1BB9EF4D007119BC /* tif_warning.Plo */,
+				73C2654E1BB9EF4D007119BC /* tif_win32.Plo */,
+				73C2654F1BB9EF4D007119BC /* tif_write.Plo */,
+				73C265501BB9EF4D007119BC /* tif_zip.Plo */,
+			);
+			path = .deps;
+			sourceTree = "<group>";
+		};
+		73C265521BB9EF4D007119BC /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				73C265531BB9EF4D007119BC /* libtiff.5.dylib */,
+				73C265541BB9EF4D007119BC /* libtiff.a */,
+				73C265551BB9EF4D007119BC /* libtiff.dylib */,
+				73C265561BB9EF4D007119BC /* libtiff.la */,
+				73C265571BB9EF4D007119BC /* libtiff.lai */,
+				73C265581BB9EF4D007119BC /* libtiffxx.5.dylib */,
+				73C265591BB9EF4D007119BC /* libtiffxx.a */,
+				73C2655A1BB9EF4D007119BC /* libtiffxx.dylib */,
+				73C2655B1BB9EF4D007119BC /* libtiffxx.la */,
+				73C2655C1BB9EF4D007119BC /* libtiffxx.lai */,
+				73C2655D1BB9EF4D007119BC /* tif_aux.o */,
+				73C2655E1BB9EF4D007119BC /* tif_close.o */,
+				73C2655F1BB9EF4D007119BC /* tif_codec.o */,
+				73C265601BB9EF4D007119BC /* tif_color.o */,
+				73C265611BB9EF4D007119BC /* tif_compress.o */,
+				73C265621BB9EF4D007119BC /* tif_dir.o */,
+				73C265631BB9EF4D007119BC /* tif_dirinfo.o */,
+				73C265641BB9EF4D007119BC /* tif_dirread.o */,
+				73C265651BB9EF4D007119BC /* tif_dirwrite.o */,
+				73C265661BB9EF4D007119BC /* tif_dumpmode.o */,
+				73C265671BB9EF4D007119BC /* tif_error.o */,
+				73C265681BB9EF4D007119BC /* tif_extension.o */,
+				73C265691BB9EF4D007119BC /* tif_fax3.o */,
+				73C2656A1BB9EF4D007119BC /* tif_fax3sm.o */,
+				73C2656B1BB9EF4D007119BC /* tif_flush.o */,
+				73C2656C1BB9EF4D007119BC /* tif_getimage.o */,
+				73C2656D1BB9EF4D007119BC /* tif_jbig.o */,
+				73C2656E1BB9EF4D007119BC /* tif_jpeg.o */,
+				73C2656F1BB9EF4D007119BC /* tif_jpeg_12.o */,
+				73C265701BB9EF4D007119BC /* tif_luv.o */,
+				73C265711BB9EF4D007119BC /* tif_lzma.o */,
+				73C265721BB9EF4D007119BC /* tif_lzw.o */,
+				73C265731BB9EF4D007119BC /* tif_next.o */,
+				73C265741BB9EF4D007119BC /* tif_ojpeg.o */,
+				73C265751BB9EF4D007119BC /* tif_open.o */,
+				73C265761BB9EF4D007119BC /* tif_packbits.o */,
+				73C265771BB9EF4D007119BC /* tif_pixarlog.o */,
+				73C265781BB9EF4D007119BC /* tif_predict.o */,
+				73C265791BB9EF4D007119BC /* tif_print.o */,
+				73C2657A1BB9EF4D007119BC /* tif_read.o */,
+				73C2657B1BB9EF4D007119BC /* tif_stream.o */,
+				73C2657C1BB9EF4D007119BC /* tif_strip.o */,
+				73C2657D1BB9EF4D007119BC /* tif_swab.o */,
+				73C2657E1BB9EF4D007119BC /* tif_thunder.o */,
+				73C2657F1BB9EF4D007119BC /* tif_tile.o */,
+				73C265801BB9EF4D007119BC /* tif_unix.o */,
+				73C265811BB9EF4D007119BC /* tif_version.o */,
+				73C265821BB9EF4D007119BC /* tif_warning.o */,
+				73C265831BB9EF4D007119BC /* tif_write.o */,
+				73C265841BB9EF4D007119BC /* tif_zip.o */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		73C2651C1BB9EECB007119BC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73C266B11BB9EF4E007119BC /* tiffiop.h in Headers */,
+				73C266621BB9EF4E007119BC /* tif_dir.h in Headers */,
+				73C266601BB9EF4E007119BC /* tif_config.wince.h in Headers */,
+				73C2665F1BB9EF4E007119BC /* tif_config.vc.h in Headers */,
+				73C266B31BB9EF4E007119BC /* uvcode.h in Headers */,
+				73C266AF1BB9EF4E007119BC /* tiffio.h in Headers */,
+				73C266AD1BB9EF4E007119BC /* tiffconf.vc.h in Headers */,
+				73C2665E1BB9EF4E007119BC /* tif_config.h in Headers */,
+				73C266AC1BB9EF4E007119BC /* tiffconf.h in Headers */,
+				73C266711BB9EF4E007119BC /* tif_fax3.h in Headers */,
+				73C266B21BB9EF4E007119BC /* tiffvers.h in Headers */,
+				73C266B01BB9EF4E007119BC /* tiffio.hxx in Headers */,
+				73C266AB1BB9EF4E007119BC /* tiff.h in Headers */,
+				73C266531BB9EF4E007119BC /* t4.h in Headers */,
+				73C266901BB9EF4E007119BC /* tif_predict.h in Headers */,
+				73C266AE1BB9EF4E007119BC /* tiffconf.wince.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		73C2651D1BB9EECB007119BC /* libtiff */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73C265221BB9EECB007119BC /* Build configuration list for PBXNativeTarget "libtiff" */;
+			buildPhases = (
+				73C2651A1BB9EECB007119BC /* Sources */,
+				73C2651B1BB9EECB007119BC /* Frameworks */,
+				73C2651C1BB9EECB007119BC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = libtiff;
+			productName = libtiff;
+			productReference = 73C2651E1BB9EECB007119BC /* liblibtiff.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		73C265161BB9EECB007119BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Pai Peng";
+				TargetAttributes = {
+					73C2651D1BB9EECB007119BC = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 73C265191BB9EECB007119BC /* Build configuration list for PBXProject "libtiff" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 73C265151BB9EECB007119BC;
+			productRefGroup = 73C2651F1BB9EECB007119BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				73C2651D1BB9EECB007119BC /* libtiff */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		73C2651A1BB9EECB007119BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73C266641BB9EF4E007119BC /* tif_dirinfo.c in Sources */,
+				73C266731BB9EF4E007119BC /* tif_fax3sm.c in Sources */,
+				73C266561BB9EF4E007119BC /* tif_close.c in Sources */,
+				73C266501BB9EF4E007119BC /* Makefile in Sources */,
+				73C266961BB9EF4E007119BC /* tif_stream.cxx in Sources */,
+				73C2665C1BB9EF4E007119BC /* tif_compress.c in Sources */,
+				73C266811BB9EF4E007119BC /* tif_lzma.c in Sources */,
+				73C266A61BB9EF4E007119BC /* tif_win32.c in Sources */,
+				73C266891BB9EF4E007119BC /* tif_open.c in Sources */,
+				73C2668F1BB9EF4E007119BC /* tif_predict.c in Sources */,
+				73C2666A1BB9EF4E007119BC /* tif_dumpmode.c in Sources */,
+				73C266771BB9EF4E007119BC /* tif_getimage.c in Sources */,
+				73C2666E1BB9EF4E007119BC /* tif_extension.c in Sources */,
+				73C2668B1BB9EF4E007119BC /* tif_packbits.c in Sources */,
+				73C266611BB9EF4E007119BC /* tif_dir.c in Sources */,
+				73C266511BB9EF4E007119BC /* mkg3states.c in Sources */,
+				73C266A91BB9EF4E007119BC /* tif_zip.c in Sources */,
+				73C266871BB9EF4E007119BC /* tif_ojpeg.c in Sources */,
+				73C266A71BB9EF4E007119BC /* tif_write.c in Sources */,
+				73C2668D1BB9EF4E007119BC /* tif_pixarlog.c in Sources */,
+				73C266541BB9EF4E007119BC /* tif_aux.c in Sources */,
+				73C266A21BB9EF4E007119BC /* tif_version.c in Sources */,
+				73C266751BB9EF4E007119BC /* tif_flush.c in Sources */,
+				73C266701BB9EF4E007119BC /* tif_fax3.c in Sources */,
+				73C2667F1BB9EF4E007119BC /* tif_luv.c in Sources */,
+				73C266581BB9EF4E007119BC /* tif_codec.c in Sources */,
+				73C266791BB9EF4E007119BC /* tif_jbig.c in Sources */,
+				73C266831BB9EF4E007119BC /* tif_lzw.c in Sources */,
+				73C2665A1BB9EF4E007119BC /* tif_color.c in Sources */,
+				73C266851BB9EF4E007119BC /* tif_next.c in Sources */,
+				73C2669C1BB9EF4E007119BC /* tif_thunder.c in Sources */,
+				73C266941BB9EF4E007119BC /* tif_read.c in Sources */,
+				73C266661BB9EF4E007119BC /* tif_dirread.c in Sources */,
+				73C2666C1BB9EF4E007119BC /* tif_error.c in Sources */,
+				73C266681BB9EF4E007119BC /* tif_dirwrite.c in Sources */,
+				73C266981BB9EF4E007119BC /* tif_strip.c in Sources */,
+				73C2667D1BB9EF4E007119BC /* tif_jpeg_12.c in Sources */,
+				73C266A01BB9EF4E007119BC /* tif_unix.c in Sources */,
+				73C266921BB9EF4E007119BC /* tif_print.c in Sources */,
+				73C2669E1BB9EF4E007119BC /* tif_tile.c in Sources */,
+				73C2667B1BB9EF4E007119BC /* tif_jpeg.c in Sources */,
+				73C266A41BB9EF4E007119BC /* tif_warning.c in Sources */,
+				73C2669A1BB9EF4E007119BC /* tif_swab.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		73C265201BB9EECB007119BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		73C265211BB9EECB007119BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		73C265231BB9EECB007119BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/libtiff/libs",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		73C265241BB9EECB007119BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/libtiff/libs",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		73C265191BB9EECB007119BC /* Build configuration list for PBXProject "libtiff" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73C265201BB9EECB007119BC /* Debug */,
+				73C265211BB9EECB007119BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73C265221BB9EECB007119BC /* Build configuration list for PBXNativeTarget "libtiff" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73C265231BB9EECB007119BC /* Debug */,
+				73C265241BB9EECB007119BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 73C265161BB9EECB007119BC /* Project object */;
+}
